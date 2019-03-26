@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+_GNU_SOURCE	/home/maged/Code/namespaces/container.c	1;"	d	file:
+_GNU_SOURCE	/home/maged/Code/namespaces/ex.c	1;"	d	file:
+_GNU_SOURCE	/home/maged/Code/namespaces/namespace.c	1;"	d	file:
+_GNU_SOURCE	/home/maged/Code/namespaces/netns.c	1;"	d	file:
+_GNU_SOURCE	/home/maged/Code/namespaces/pidns.c	1;"	d	file:
+_GNU_SOURCE	/home/maged/Code/namespaces/utsns.c	1;"	d	file:
+child_fn	/home/maged/Code/namespaces/ex.c	/^static int child_fn() {$/;"	f	file:
+child_fn	/home/maged/Code/namespaces/netns.c	/^static int child_fn() {$/;"	f	file:
+child_fn	/home/maged/Code/namespaces/pidns.c	/^static int child_fn() {$/;"	f	file:
+child_fn	/home/maged/Code/namespaces/utsns.c	/^static int child_fn() {$/;"	f	file:
+child_stack	/home/maged/Code/namespaces/ex.c	/^static char child_stack[1048576];$/;"	v	file:
+child_stack	/home/maged/Code/namespaces/netns.c	/^static char child_stack[1048576];$/;"	v	file:
+child_stack	/home/maged/Code/namespaces/pidns.c	/^static char child_stack[1048576];$/;"	v	file:
+child_stack	/home/maged/Code/namespaces/utsns.c	/^static char child_stack[1048576];$/;"	v	file:
+container	/home/maged/Code/namespaces/container.c	/^typedef struct container container;$/;"	t	typeref:struct:container	file:
+container	/home/maged/Code/namespaces/container.h	/^typedef struct container {$/;"	s
+container	/home/maged/Code/namespaces/container.h	/^} container;$/;"	t	typeref:struct:container
+container	/home/maged/Code/namespaces/namespace.c	/^typedef struct container {$/;"	s	file:
+container	/home/maged/Code/namespaces/namespace.c	/^} container;$/;"	t	typeref:struct:container	file:
+container::get_hostname	/home/maged/Code/namespaces/container.h	/^  char * (*get_hostname)();$/;"	m	struct:container	access:public
+container::isolate_ipc	/home/maged/Code/namespaces/container.h	/^  int (*isolate_ipc)();$/;"	m	struct:container	access:public
+container::isolate_mount	/home/maged/Code/namespaces/container.h	/^  int (*isolate_mount)();$/;"	m	struct:container	access:public
+container::isolate_net	/home/maged/Code/namespaces/container.h	/^  int (*isolate_net)();$/;"	m	struct:container	access:public
+container::isolate_net	/home/maged/Code/namespaces/namespace.c	/^  int (*isolate_net)();$/;"	m	struct:container	file:	access:public
+container::isolate_pid	/home/maged/Code/namespaces/container.h	/^  int (*isolate_pid)();$/;"	m	struct:container	access:public
+container::isolate_user	/home/maged/Code/namespaces/container.h	/^  int (*isolate_user)();$/;"	m	struct:container	access:public
+container::isolate_uts	/home/maged/Code/namespaces/container.h	/^  int (*isolate_uts)();$/;"	m	struct:container	access:public
+container::name	/home/maged/Code/namespaces/container.h	/^  char *name;$/;"	m	struct:container	access:public
+container::name	/home/maged/Code/namespaces/namespace.c	/^  char *name;$/;"	m	struct:container	file:	access:public
+container::set_hostname	/home/maged/Code/namespaces/container.h	/^  int (*set_hostname)();$/;"	m	struct:container	access:public
+container::start	/home/maged/Code/namespaces/container.h	/^  int (*start)();$/;"	m	struct:container	access:public
+container::start	/home/maged/Code/namespaces/namespace.c	/^  int (*start)();$/;"	m	struct:container	file:	access:public
+get_hostname	/home/maged/Code/namespaces/container.c	/^char * get_hostname(container *self) {$/;"	f	signature:(container *self)
+get_hostname	/home/maged/Code/namespaces/container.h	/^  char * (*get_hostname)();$/;"	m	struct:container	access:public
+get_hostname	/home/maged/Code/namespaces/container.h	/^char * get_hostname(container *self);$/;"	p	signature:(container *self)
+initializeContainer	/home/maged/Code/namespaces/container.c	/^container *initializeContainer(char *name) {$/;"	f	signature:(char *name)
+initializeContainer	/home/maged/Code/namespaces/container.h	/^container *initializeContainer(char *name);$/;"	p	signature:(char *name)
+initializeContainer	/home/maged/Code/namespaces/namespace.c	/^container *initializeContainer(char *name) {$/;"	f	signature:(char *name)
+isolate_ipc	/home/maged/Code/namespaces/container.c	/^int isolate_ipc(container *self) {$/;"	f	signature:(container *self)
+isolate_ipc	/home/maged/Code/namespaces/container.h	/^  int (*isolate_ipc)();$/;"	m	struct:container	access:public
+isolate_ipc	/home/maged/Code/namespaces/container.h	/^int isolate_ipc(container *self);$/;"	p	signature:(container *self)
+isolate_mount	/home/maged/Code/namespaces/container.c	/^int isolate_mount(container *self) {$/;"	f	signature:(container *self)
+isolate_mount	/home/maged/Code/namespaces/container.h	/^  int (*isolate_mount)();$/;"	m	struct:container	access:public
+isolate_net	/home/maged/Code/namespaces/container.c	/^int isolate_net(container *self) {$/;"	f	signature:(container *self)
+isolate_net	/home/maged/Code/namespaces/container.h	/^  int (*isolate_net)();$/;"	m	struct:container	access:public
+isolate_net	/home/maged/Code/namespaces/container.h	/^int isolate_net(container *self);$/;"	p	signature:(container *self)
+isolate_net	/home/maged/Code/namespaces/namespace.c	/^  int (*isolate_net)();$/;"	m	struct:container	file:	access:public
+isolate_net	/home/maged/Code/namespaces/namespace.c	/^int isolate_net(container *self) {$/;"	f	signature:(container *self)
+isolate_pid	/home/maged/Code/namespaces/container.c	/^int isolate_pid(container *self) {$/;"	f	signature:(container *self)
+isolate_pid	/home/maged/Code/namespaces/container.h	/^  int (*isolate_pid)();$/;"	m	struct:container	access:public
+isolate_pid	/home/maged/Code/namespaces/container.h	/^int isolate_pid(container *self);$/;"	p	signature:(container *self)
+isolate_user	/home/maged/Code/namespaces/container.c	/^int isolate_user(container *self) {$/;"	f	signature:(container *self)
+isolate_user	/home/maged/Code/namespaces/container.h	/^  int (*isolate_user)();$/;"	m	struct:container	access:public
+isolate_uts	/home/maged/Code/namespaces/container.c	/^int isolate_uts(container *self) {$/;"	f	signature:(container *self)
+isolate_uts	/home/maged/Code/namespaces/container.h	/^  int (*isolate_uts)();$/;"	m	struct:container	access:public
+isolate_uts	/home/maged/Code/namespaces/container.h	/^int isolate_uts(container *self);$/;"	p	signature:(container *self)
+main	/home/maged/Code/namespaces/ex.c	/^int main() {$/;"	f
+main	/home/maged/Code/namespaces/main.c	/^int main(int argc, char * argv[]) {$/;"	f	signature:(int argc, char * argv[])
+main	/home/maged/Code/namespaces/netns.c	/^int main() {$/;"	f
+main	/home/maged/Code/namespaces/pidns.c	/^int main() {$/;"	f
+main	/home/maged/Code/namespaces/utsns.c	/^int main() {$/;"	f
+name	/home/maged/Code/namespaces/container.h	/^  char *name;$/;"	m	struct:container	access:public
+name	/home/maged/Code/namespaces/namespace.c	/^  char *name;$/;"	m	struct:container	file:	access:public
+print_nodename	/home/maged/Code/namespaces/utsns.c	/^static void print_nodename() {$/;"	f	file:
+set_hostname	/home/maged/Code/namespaces/container.c	/^int set_hostname(container *self) {$/;"	f	signature:(container *self)
+set_hostname	/home/maged/Code/namespaces/container.h	/^  int (*set_hostname)();$/;"	m	struct:container	access:public
+set_hostname	/home/maged/Code/namespaces/container.h	/^int set_hostname(container *self);$/;"	p	signature:(container *self)
+start	/home/maged/Code/namespaces/container.c	/^int start(container *self) {$/;"	f	signature:(container *self)
+start	/home/maged/Code/namespaces/container.h	/^  int (*start)();$/;"	m	struct:container	access:public
+start	/home/maged/Code/namespaces/container.h	/^int start(container *self);$/;"	p	signature:(container *self)
+start	/home/maged/Code/namespaces/namespace.c	/^  int (*start)();$/;"	m	struct:container	file:	access:public
+start	/home/maged/Code/namespaces/namespace.c	/^int start(container *self) {$/;"	f	signature:(container *self)
