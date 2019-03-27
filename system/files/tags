@@ -4,8 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+main	/home/maged/Code/system/files/dir_scanning.c	/^int main(int argc, char *argv []) {$/;"	f	signature:(int argc, char *argv [])
 main	/home/maged/Code/system/files/fdopen_copy.c	/^int main(){$/;"	f
 main	/home/maged/Code/system/files/file_copy.c	/^int main() {$/;"	f
+main	/home/maged/Code/system/files/file_dir_maintain.c	/^int main() {$/;"	f
 main	/home/maged/Code/system/files/std_file_copy.c	/^int main() {$/;"	f
 main	/home/maged/Code/system/files/std_read.c	/^int main() {$/;"	f
 main	/home/maged/Code/system/files/std_write.c	/^int main() {$/;"	f
+printdir	/home/maged/Code/system/files/dir_scanning.c	/^void printdir(char *dir, int depth) {$/;"	f	signature:(char *dir, int depth)
