@@ -4,4 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+_GNU_SOURCE	/home/maged/Code/system/env/longopt.c	2;"	d	file:
+_GNU_SOURCE	/home/maged/Code/system/env/mylongopts.c	4;"	d	file:
+_XOPEN_SOURCE	/home/maged/Code/system/env/strf_strp.c	1;"	d	file:
 main	/home/maged/Code/system/env/argopt.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	/home/maged/Code/system/env/gmtime.c	/^int main() {$/;"	f
+main	/home/maged/Code/system/env/hostinfo.c	/^int main() {$/;"	f
+main	/home/maged/Code/system/env/longopt.c	/^int main (int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	/home/maged/Code/system/env/mylongopts.c	/^int main(int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	/home/maged/Code/system/env/showenv.c	/^int main()$/;"	f
+main	/home/maged/Code/system/env/strf_strp.c	/^int main () {$/;"	f
+main	/home/maged/Code/system/env/tmp.c	/^int main() {$/;"	f
+main	/home/maged/Code/system/env/userinfo.c	/^int main() {$/;"	f
